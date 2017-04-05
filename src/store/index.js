@@ -2,13 +2,15 @@ import axios from 'axios'
 import router from '../router'
 
 let api = axios.create({
-  baseURL: 'http://localhost:3000/api/',
+  // baseURL: 'http://localhost:3000/api/',
+  baseURL: 'https://afternoon-meadow-84083.herokuapp.com/api/',
   timeout: 2000,
   withCredentials: true
 })
 
 let base = axios.create({
-  baseURL: 'http://localhost:3000/',
+  // baseURL: 'http://localhost:3000/',
+  baseURL: 'https://afternoon-meadow-84083.herokuapp.com/',
   timeout: 2000,
   withCredentials: true
 })
