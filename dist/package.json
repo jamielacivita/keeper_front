@@ -1,0 +1,10 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "Jake Overall <joverall22@gmail.com>",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express"
+  }
+}
