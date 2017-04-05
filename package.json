@@ -5,6 +5,7 @@
   "author": "Jake Overall <joverall22@gmail.com>",
   "private": true,
   "scripts": {
+<<<<<<< HEAD
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
@@ -78,3 +79,8 @@
     "not ie <= 8"
   ]
 }
+=======
+    "postinstall": "npm install express"
+  }
+}
+>>>>>>> 2eabef82f47d362932bca3d34f06ec576f1f9792
