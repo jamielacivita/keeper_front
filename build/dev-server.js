@@ -64,7 +64,8 @@ app.use(hotMiddleware)
 var staticPath = path.posix.join(config.dev.assetsPublicPath, config.dev.assetsSubDirectory)
 app.use(staticPath, express.static('./static'))
 
-var uri = 'http://localhost:' + port
+// var uri = 'http://localhost:' + port
+var uri = 'https://afternoon-meadow-84083.herokuapp.com:' + port
 
 var _resolve
 var readyPromise = new Promise(resolve => {
